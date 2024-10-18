@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package api;
+
+// Option go_package pour spécifier le chemin d'import Go
+option go_package = "./path";
+
+// gRPC Service Declaration
+service ApiService {
+  rpc GetUserInfo(UserRequest) returns (UserResponse);
+  rpc CreateUser(CreateUserRequest) returns (UserResponse);
+  rpc ListUsers(ListUsersRequest) returns (ListUsersResponse);
+}
+
+// Message Definitions
+message UserRequest {
+  string user_id = 1;
+}
+
+message CreateUserRequest {
+  string user_name = 1;
+  int32 user_age = 2;
+}
+
+message UserResponse {
+  string user_id = 1;  // Added user_id for response
+  string user_name = 2;
+  int32 user_age = 3;
+}
+
+message ListUsersRequest {}
+
+message ListUsersResponse {
+  repeated UserResponse users = 1;
+}
