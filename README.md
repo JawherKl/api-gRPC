@@ -1,8 +1,3 @@
-Here’s a `README.md` for your gRPC API project that includes instructions on how to run the project and a brief overview of the API endpoints:
-
-### `README.md`
-
-```md
 # gRPC API Project
 
 This project demonstrates the use of gRPC (Remote Procedure Call) for building a simple API that handles user information. The API provides functionality for creating users, retrieving user information, and listing all users.
@@ -72,8 +67,8 @@ message ListUsersResponse {
 
 1. **Clone the repository**:
     ```bash
-    git clone <your-repository-url>
-    cd <project-directory>
+    git clone https://github.com/JawherKl/api-gRPC
+    cd api-gRPC
     ```
 
 2. **Install dependencies**:
@@ -185,7 +180,6 @@ You can test the gRPC endpoints using a gRPC client like [Evans](https://github.
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
-```
 
 ### Explanation:
 - **Project Structure**: Describes the key components of the project.
