@@ -67,7 +67,7 @@ message ListUsersResponse {
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/JawherKl/api-gRPC
+    git clone https://github.com/JawherKl/api-gRPC.git
     cd api-gRPC
     ```
 
