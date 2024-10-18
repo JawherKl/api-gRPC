@@ -146,7 +146,11 @@ message ListUsersResponse {
 
 ## Testing with gRPC Client
 
-You can test the gRPC endpoints using a gRPC client like [Evans](https://github.com/ktr0731/evans) or [BloomRPC](https://github.com/uw-labs/bloomrpc).
+``` bash
+go run client.go
+```
+
+Or you can test the gRPC endpoints using a gRPC client like [Evans](https://github.com/ktr0731/evans) or [BloomRPC](https://github.com/uw-labs/bloomrpc).
 
 ### Example using Evans:
 
