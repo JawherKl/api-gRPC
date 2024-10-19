@@ -18,7 +18,7 @@ Before running the project, ensure that you have the following installed:
 
 ```
 ├── path/
-│   └── apigenerated.proto           # Protobuf file defining gRPC API
+│   └── api-generated.proto           # Protobuf file defining gRPC API
 ├── main.go                 # Main server implementation
 ├── README.md               # This file
 └── go.mod                  # Go module file
