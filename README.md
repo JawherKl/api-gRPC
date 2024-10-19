@@ -17,10 +17,8 @@ Before running the project, ensure that you have the following installed:
 ## Project Structure
 
 ```
-├── api/
-│   └── api.proto           # Protobuf file defining gRPC API
-├── generated/
-│   └── api.pb.go           # Generated Go code from api.proto
+├── path/
+│   └── apigenerated.proto           # Protobuf file defining gRPC API
 ├── main.go                 # Main server implementation
 ├── README.md               # This file
 └── go.mod                  # Go module file
